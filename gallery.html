@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photo Gallery </title>
+    </head>
+    <body>
+        <h1> Responsive Image Gallery</h1>
+        <style type="text/css">
+        *{
+            box-sizing: border-box;
+        } 
+
+        .gallery{
+            border:1px solid #ccc;
+        }
+
+        .gallery img{
+            width: 300px;
+            height: 250px;
+        }
+
+        .gallery2 img{
+            width: 500px;
+            height: 350px;
+        }
+
+        .gallery3 img{
+            width: 400px ;
+            height:300px;
+        }
+
+        .des{
+            padding:15px;
+            text-align:center;
+        }
+
+        .responsive{
+            padding: 0 6px;
+            float: left;
+            width: 25%;
+        }
+
+        @media only screen and(max-width: 300px){
+            .responsive{
+                width:50%;
+                margin:6px 0;
+            }
+        }
+
+        @media only screen and(max-width: 500px){
+            .responsive{
+                width:100%;
+            }
+        }
+        </style>
+        <div class="responsive">
+            <div class="gallery">
+                <a href="Adonna Khare Gallery 1.jpg" target="_blank"><img src="Adonna Khare Gallery 1.jpg" > </a>
+                <div class="des"> This is Sketch by "Adonna Khare" </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery2">
+                <a href="Adonna Khare Gallery 2.jpg" target="_blank"><img src="Adonna Khare Gallery 2.jpg"> </a>
+                <div class="des"> Add a Desciption of the image here</div>
+            </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery3">
+                    <a href="Adonna Khare Gallery 3.jpg" target="_blank"><img src="Adonna Khare Gallery 3.jpg"> </a>
+                    <div class="des"> Add a Desciption of the image here</div>
+            </div>
+            </div>
+
+            <div class="responsive">
+                    <div class="gallery4">
+                        <a href="Adonna Khare Gallery 4.jpg" target="_blank"><img src="Adonna Khare Gallery 4.jpg"> </a>
+                        <div class="des"> Add a Desciption of the image here</div>
+            </div>
+            </div>
+
+            <div class="responsive">
+                    <div class="gallery5">
+                       <a href="Adonna Khare Gallery 1.jpg" target="_blank"><img src="Adonna Khare Gallery 1.jpg"> </a>
+                       <div class="des"> Add a Desciption of the image here</div>
+            </div>
+            </div>
+
+            <div class="responsive">
+                     <div class="gallery6">
+                        <a href="Adonna Khare Gallery 2.jpg" target="_blank"><img src="Adonna Khare Gallery 2.jpg"> </a>
+                        <div class="des"> Add a Desciption of the image here</div>
+            </div>
+            </div>
+    </body>
+</html>
